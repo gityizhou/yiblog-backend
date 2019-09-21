@@ -33,8 +33,8 @@ public class IndexController {
         return "tags";
     }
 
-    @GetMapping("/about")
-    public String about() {
-        return "about";
+    @GetMapping("/blogs")
+    public String blogs() {
+        return "admin/blogs";
     }
 }

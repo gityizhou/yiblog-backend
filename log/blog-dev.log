@@ -4085,3 +4085,1115 @@ org.thymeleaf.exceptions.TemplateInputException: Error resolving template [tag],
 2019-09-21 19:53:44.500  INFO 12736 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
 2019-09-21 19:53:44.517  INFO 12736 --- [http-nio-8080-exec-1] com.zhouyi.yiblog.aspect.LogAspect       : Reuqest: RequestLog{url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.zhouyi.yiblog.web.IndexController.about', args=[]}
 2019-09-21 19:53:44.520  INFO 12736 --- [http-nio-8080-exec-1] com.zhouyi.yiblog.aspect.LogAspect       : Result: about
+2019-09-21 20:01:39.171  INFO 5152 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Starting YiblogApplication on USERCHI-COT0U3J with PID 5152 (C:\Users\Administrator\Documents\project\java\yiblog\target\classes started by YiZhou in C:\Users\Administrator\Documents\project\java\yiblog)
+2019-09-21 20:01:39.173 DEBUG 5152 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-21 20:01:39.174  INFO 5152 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : The following profiles are active: dev
+2019-09-21 20:01:39.252  INFO 5152 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-21 20:01:39.252  INFO 5152 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-21 20:01:39.902  INFO 5152 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-21 20:01:39.918  INFO 5152 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2019-09-21 20:01:40.166  INFO 5152 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1144c08f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-21 20:01:40.539  INFO 5152 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-09-21 20:01:40.556  INFO 5152 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-21 20:01:40.556  INFO 5152 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-21 20:01:40.667  INFO 5152 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-09-21 20:01:40.668  INFO 5152 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1416 ms
+2019-09-21 20:01:40.863  INFO 5152 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-09-21 20:01:40.944  INFO 5152 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-09-21 20:01:40.978  INFO 5152 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-21 20:01:41.023  INFO 5152 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-21 20:01:41.024  INFO 5152 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-09-21 20:01:41.122  INFO 5152 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-21 20:01:41.369  INFO 5152 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-21 20:01:41.520  INFO 5152 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-21 20:01:41.577  INFO 5152 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-21 20:01:41.877  INFO 5152 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-21 20:01:41.947  INFO 5152 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-09-21 20:01:42.362  INFO 5152 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-21 20:01:42.364  INFO 5152 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Started YiblogApplication in 3.575 seconds (JVM running for 4.141)
+2019-09-21 20:50:19.265  INFO 14152 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Starting YiblogApplication on USERCHI-COT0U3J with PID 14152 (C:\Users\Administrator\Documents\project\java\yiblog\target\classes started by YiZhou in C:\Users\Administrator\Documents\project\java\yiblog)
+2019-09-21 20:50:19.267 DEBUG 14152 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-21 20:50:19.267  INFO 14152 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : The following profiles are active: dev
+2019-09-21 20:50:19.334  INFO 14152 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-21 20:50:19.334  INFO 14152 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-21 20:50:20.102  INFO 14152 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-21 20:50:20.120  INFO 14152 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2019-09-21 20:50:20.384  INFO 14152 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ffa7747d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-21 20:50:20.757  INFO 14152 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-09-21 20:50:20.773  INFO 14152 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-21 20:50:20.774  INFO 14152 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-21 20:50:20.893  INFO 14152 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-09-21 20:50:20.894  INFO 14152 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1560 ms
+2019-09-21 20:50:21.076  INFO 14152 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-09-21 20:50:21.154  INFO 14152 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-09-21 20:50:21.189  INFO 14152 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-21 20:50:21.231  INFO 14152 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-21 20:50:21.232  INFO 14152 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-09-21 20:50:21.330  INFO 14152 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-21 20:50:21.552  INFO 14152 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-21 20:50:22.292  INFO 14152 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-21 20:50:22.356  INFO 14152 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-21 20:50:22.660  INFO 14152 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-21 20:50:22.729  INFO 14152 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-09-21 20:50:23.154  INFO 14152 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-21 20:50:23.156  INFO 14152 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Started YiblogApplication in 4.257 seconds (JVM running for 4.798)
+2019-09-21 21:32:51.398  INFO 12596 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Starting YiblogApplication on USERCHI-COT0U3J with PID 12596 (C:\Users\Administrator\Documents\project\java\yiblog\target\classes started by YiZhou in C:\Users\Administrator\Documents\project\java\yiblog)
+2019-09-21 21:32:51.402 DEBUG 12596 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-21 21:32:51.403  INFO 12596 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : The following profiles are active: dev
+2019-09-21 21:32:51.477  INFO 12596 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-21 21:32:51.478  INFO 12596 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-21 21:32:52.088  INFO 12596 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-21 21:32:52.106  INFO 12596 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2019-09-21 21:32:52.351  INFO 12596 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e8fcbaaa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-21 21:32:52.715  INFO 12596 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-09-21 21:32:52.738  INFO 12596 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-21 21:32:52.738  INFO 12596 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-21 21:32:52.836  INFO 12596 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-09-21 21:32:52.836  INFO 12596 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1358 ms
+2019-09-21 21:32:52.999  INFO 12596 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-09-21 21:32:53.074  INFO 12596 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-09-21 21:32:53.109  INFO 12596 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-21 21:32:53.150  INFO 12596 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-21 21:32:53.152  INFO 12596 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-09-21 21:32:53.240  INFO 12596 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-21 21:32:53.455  INFO 12596 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-21 21:32:54.122  INFO 12596 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-21 21:32:54.182  INFO 12596 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-21 21:32:54.444  INFO 12596 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-21 21:32:54.513  INFO 12596 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-09-21 21:32:54.923  INFO 12596 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-21 21:32:54.925  INFO 12596 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Started YiblogApplication in 3.917 seconds (JVM running for 4.435)
+2019-09-21 21:33:27.750  INFO 12596 --- [Thread-10] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-21 21:33:27.751  INFO 12596 --- [Thread-10] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-09-21 21:33:27.753  INFO 12596 --- [Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-09-21 21:33:27.756  INFO 12596 --- [Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-09-21 21:33:27.934  INFO 12596 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Starting YiblogApplication on USERCHI-COT0U3J with PID 12596 (C:\Users\Administrator\Documents\project\java\yiblog\target\classes started by YiZhou in C:\Users\Administrator\Documents\project\java\yiblog)
+2019-09-21 21:33:27.934 DEBUG 12596 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-21 21:33:27.934  INFO 12596 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : The following profiles are active: dev
+2019-09-21 21:33:28.162  INFO 12596 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-21 21:33:28.167  INFO 12596 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+2019-09-21 21:33:28.207  INFO 12596 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e8fcbaaa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-21 21:33:28.333  INFO 12596 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-09-21 21:33:28.333  INFO 12596 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-21 21:33:28.333  INFO 12596 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-21 21:33:28.360  INFO 12596 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-09-21 21:33:28.360  INFO 12596 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 424 ms
+2019-09-21 21:33:28.418  INFO 12596 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2019-09-21 21:33:28.421  INFO 12596 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2019-09-21 21:33:28.431  INFO 12596 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-21 21:33:28.561  INFO 12596 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-21 21:33:28.821  INFO 12596 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-21 21:33:28.854  INFO 12596 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-21 21:33:29.018  INFO 12596 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-21 21:33:29.051  INFO 12596 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-09-21 21:33:29.376  INFO 12596 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-21 21:33:29.377  INFO 12596 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Started YiblogApplication in 1.479 seconds (JVM running for 38.887)
+2019-09-21 21:33:29.378  INFO 12596 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-09-21 21:33:37.692  INFO 12596 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-21 21:33:37.693  INFO 12596 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-21 21:33:37.706  INFO 12596 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2019-09-21 21:33:37.726  INFO 12596 --- [http-nio-8080-exec-3] com.zhouyi.yiblog.aspect.LogAspect       : Reuqest: RequestLog{url='http://localhost:8080/login', ip='0:0:0:0:0:0:0:1', classMethod='com.zhouyi.yiblog.web.IndexController.about', args=[]}
+2019-09-21 21:33:37.728  INFO 12596 --- [http-nio-8080-exec-3] com.zhouyi.yiblog.aspect.LogAspect       : Result: login
+2019-09-21 21:33:37.818 ERROR 12596 --- [http-nio-8080-exec-3] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-3] Exception processing template "login": Error resolving template [login], template might not exist or might not be accessible by any of the configured Template Resolvers
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [login], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-09-21 21:33:37.820 ERROR 12596 --- [http-nio-8080-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template [login], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [login], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-09-21 21:34:39.056  INFO 12660 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Starting YiblogApplication on USERCHI-COT0U3J with PID 12660 (C:\Users\Administrator\Documents\project\java\yiblog\target\classes started by YiZhou in C:\Users\Administrator\Documents\project\java\yiblog)
+2019-09-21 21:34:39.058 DEBUG 12660 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-21 21:34:39.058  INFO 12660 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : The following profiles are active: dev
+2019-09-21 21:34:39.121  INFO 12660 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-21 21:34:39.122  INFO 12660 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-21 21:34:39.722  INFO 12660 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-21 21:34:39.739  INFO 12660 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2019-09-21 21:34:39.985  INFO 12660 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b5bc92d9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-21 21:34:40.344  INFO 12660 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-09-21 21:34:40.367  INFO 12660 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-21 21:34:40.367  INFO 12660 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-21 21:34:40.463  INFO 12660 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-09-21 21:34:40.464  INFO 12660 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1342 ms
+2019-09-21 21:34:40.630  INFO 12660 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-09-21 21:34:40.705  INFO 12660 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-09-21 21:34:40.740  INFO 12660 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-21 21:34:40.780  INFO 12660 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-21 21:34:40.781  INFO 12660 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-09-21 21:34:40.868  INFO 12660 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-21 21:34:41.082  INFO 12660 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-21 21:34:41.756  INFO 12660 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-21 21:34:41.822  INFO 12660 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-21 21:34:42.084  INFO 12660 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-21 21:34:42.151  INFO 12660 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-09-21 21:34:42.560  INFO 12660 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-21 21:34:42.562  INFO 12660 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Started YiblogApplication in 3.855 seconds (JVM running for 4.445)
+2019-09-21 21:34:47.661  INFO 12660 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-21 21:34:47.661  INFO 12660 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-21 21:34:47.669  INFO 12660 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-09-21 21:34:47.686  INFO 12660 --- [http-nio-8080-exec-1] com.zhouyi.yiblog.aspect.LogAspect       : Reuqest: RequestLog{url='http://localhost:8080/login', ip='0:0:0:0:0:0:0:1', classMethod='com.zhouyi.yiblog.web.IndexController.about', args=[]}
+2019-09-21 21:34:47.689  INFO 12660 --- [http-nio-8080-exec-1] com.zhouyi.yiblog.aspect.LogAspect       : Result: login
+2019-09-21 21:34:47.789 ERROR 12660 --- [http-nio-8080-exec-1] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-1] Exception processing template "login": Error resolving template [login], template might not exist or might not be accessible by any of the configured Template Resolvers
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [login], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-09-21 21:34:47.792 ERROR 12660 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template [login], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [login], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-09-21 21:35:04.699  INFO 12660 --- [http-nio-8080-exec-9] com.zhouyi.yiblog.aspect.LogAspect       : Reuqest: RequestLog{url='http://localhost:8080/tags', ip='0:0:0:0:0:0:0:1', classMethod='com.zhouyi.yiblog.web.IndexController.tags', args=[]}
+2019-09-21 21:35:04.700  INFO 12660 --- [http-nio-8080-exec-9] com.zhouyi.yiblog.aspect.LogAspect       : Result: tags
+2019-09-21 21:36:04.640  INFO 14948 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Starting YiblogApplication on USERCHI-COT0U3J with PID 14948 (C:\Users\Administrator\Documents\project\java\yiblog\target\classes started by YiZhou in C:\Users\Administrator\Documents\project\java\yiblog)
+2019-09-21 21:36:04.641 DEBUG 14948 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-21 21:36:04.642  INFO 14948 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : The following profiles are active: dev
+2019-09-21 21:36:04.702  INFO 14948 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-21 21:36:04.703  INFO 14948 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-21 21:36:05.285  INFO 14948 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-21 21:36:05.302  INFO 14948 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2019-09-21 21:36:05.550  INFO 14948 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5b6b3fd3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-21 21:36:05.918  INFO 14948 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-09-21 21:36:05.933  INFO 14948 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-21 21:36:05.933  INFO 14948 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-21 21:36:06.028  INFO 14948 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-09-21 21:36:06.028  INFO 14948 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1325 ms
+2019-09-21 21:36:06.195  INFO 14948 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-09-21 21:36:06.270  INFO 14948 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-09-21 21:36:06.306  INFO 14948 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-21 21:36:06.346  INFO 14948 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-21 21:36:06.347  INFO 14948 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-09-21 21:36:06.436  INFO 14948 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-21 21:36:06.650  INFO 14948 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-21 21:36:07.309  INFO 14948 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-21 21:36:07.369  INFO 14948 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-21 21:36:07.630  INFO 14948 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-21 21:36:07.699  INFO 14948 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-09-21 21:36:08.113  INFO 14948 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-21 21:36:08.115  INFO 14948 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Started YiblogApplication in 3.837 seconds (JVM running for 4.364)
+2019-09-21 21:36:12.940  INFO 14948 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-21 21:36:12.940  INFO 14948 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-21 21:36:12.949  INFO 14948 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2019-09-21 21:36:12.968  INFO 14948 --- [http-nio-8080-exec-1] com.zhouyi.yiblog.aspect.LogAspect       : Reuqest: RequestLog{url='http://localhost:8080/blogs', ip='0:0:0:0:0:0:0:1', classMethod='com.zhouyi.yiblog.web.IndexController.blogs', args=[]}
+2019-09-21 21:36:12.980  INFO 14948 --- [http-nio-8080-exec-1] com.zhouyi.yiblog.aspect.LogAspect       : Result: blogs
+2019-09-21 21:36:13.066 ERROR 14948 --- [http-nio-8080-exec-1] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-1] Exception processing template "blogs": Error resolving template [blogs], template might not exist or might not be accessible by any of the configured Template Resolvers
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [blogs], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-09-21 21:36:13.069 ERROR 14948 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template [blogs], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [blogs], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-09-21 21:36:37.524  INFO 9516 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Starting YiblogApplication on USERCHI-COT0U3J with PID 9516 (C:\Users\Administrator\Documents\project\java\yiblog\target\classes started by YiZhou in C:\Users\Administrator\Documents\project\java\yiblog)
+2019-09-21 21:36:37.526 DEBUG 9516 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-21 21:36:37.526  INFO 9516 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : The following profiles are active: dev
+2019-09-21 21:36:37.584  INFO 9516 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-21 21:36:37.584  INFO 9516 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-21 21:36:38.138  INFO 9516 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-21 21:36:38.157  INFO 9516 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2019-09-21 21:36:38.402  INFO 9516 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$de397d00] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-21 21:36:38.770  INFO 9516 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-09-21 21:36:38.785  INFO 9516 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-21 21:36:38.785  INFO 9516 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-21 21:36:38.889  INFO 9516 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-09-21 21:36:38.889  INFO 9516 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1304 ms
+2019-09-21 21:36:39.051  INFO 9516 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-09-21 21:36:39.126  INFO 9516 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-09-21 21:36:39.161  INFO 9516 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-21 21:36:39.202  INFO 9516 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-21 21:36:39.203  INFO 9516 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-09-21 21:36:39.290  INFO 9516 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-21 21:36:39.499  INFO 9516 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-21 21:36:40.158  INFO 9516 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-21 21:36:40.221  INFO 9516 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-21 21:36:40.482  INFO 9516 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-21 21:36:40.552  INFO 9516 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-09-21 21:36:40.974  INFO 9516 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-21 21:36:40.976  INFO 9516 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Started YiblogApplication in 3.813 seconds (JVM running for 4.332)
+2019-09-21 21:36:52.336  INFO 9516 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-21 21:36:52.337  INFO 9516 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-21 21:36:52.345  INFO 9516 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-09-21 21:36:52.364  INFO 9516 --- [http-nio-8080-exec-2] com.zhouyi.yiblog.aspect.LogAspect       : Reuqest: RequestLog{url='http://localhost:8080/blogs', ip='0:0:0:0:0:0:0:1', classMethod='com.zhouyi.yiblog.web.IndexController.blogs', args=[]}
+2019-09-21 21:36:52.367  INFO 9516 --- [http-nio-8080-exec-2] com.zhouyi.yiblog.aspect.LogAspect       : Result: admin/blogs
+2019-09-21 21:36:57.850  INFO 9516 --- [http-nio-8080-exec-6] com.zhouyi.yiblog.aspect.LogAspect       : Reuqest: RequestLog{url='http://localhost:8080/login', ip='0:0:0:0:0:0:0:1', classMethod='com.zhouyi.yiblog.web.IndexController.login', args=[]}
+2019-09-21 21:36:57.851  INFO 9516 --- [http-nio-8080-exec-6] com.zhouyi.yiblog.aspect.LogAspect       : Result: admin/login
+2019-09-21 21:38:38.558  INFO 9516 --- [http-nio-8080-exec-10] com.zhouyi.yiblog.aspect.LogAspect       : Reuqest: RequestLog{url='http://localhost:8080/login', ip='0:0:0:0:0:0:0:1', classMethod='com.zhouyi.yiblog.web.IndexController.login', args=[]}
+2019-09-21 21:38:38.559  INFO 9516 --- [http-nio-8080-exec-10] com.zhouyi.yiblog.aspect.LogAspect       : Result: admin/login
+2019-09-21 21:38:40.350  INFO 9516 --- [http-nio-8080-exec-6] com.zhouyi.yiblog.aspect.LogAspect       : Reuqest: RequestLog{url='http://localhost:8080/login', ip='0:0:0:0:0:0:0:1', classMethod='com.zhouyi.yiblog.web.IndexController.login', args=[]}
+2019-09-21 21:38:40.351  INFO 9516 --- [http-nio-8080-exec-6] com.zhouyi.yiblog.aspect.LogAspect       : Result: admin/login
+2019-09-21 21:39:12.663  INFO 9516 --- [http-nio-8080-exec-9] com.zhouyi.yiblog.aspect.LogAspect       : Reuqest: RequestLog{url='http://localhost:8080/login', ip='0:0:0:0:0:0:0:1', classMethod='com.zhouyi.yiblog.web.IndexController.login', args=[]}
+2019-09-21 21:39:12.663  INFO 9516 --- [http-nio-8080-exec-9] com.zhouyi.yiblog.aspect.LogAspect       : Result: admin/login
+2019-09-21 21:39:13.640  INFO 9516 --- [http-nio-8080-exec-1] com.zhouyi.yiblog.aspect.LogAspect       : Reuqest: RequestLog{url='http://localhost:8080/login', ip='0:0:0:0:0:0:0:1', classMethod='com.zhouyi.yiblog.web.IndexController.login', args=[]}
+2019-09-21 21:39:13.640  INFO 9516 --- [http-nio-8080-exec-1] com.zhouyi.yiblog.aspect.LogAspect       : Result: admin/login
+2019-09-21 21:43:50.833  INFO 9516 --- [http-nio-8080-exec-1] com.zhouyi.yiblog.aspect.LogAspect       : Reuqest: RequestLog{url='http://localhost:8080/login', ip='0:0:0:0:0:0:0:1', classMethod='com.zhouyi.yiblog.web.IndexController.login', args=[]}
+2019-09-21 21:43:50.833  INFO 9516 --- [http-nio-8080-exec-1] com.zhouyi.yiblog.aspect.LogAspect       : Result: admin/login
+2019-09-21 21:43:51.783  INFO 9516 --- [http-nio-8080-exec-3] com.zhouyi.yiblog.aspect.LogAspect       : Reuqest: RequestLog{url='http://localhost:8080/login', ip='0:0:0:0:0:0:0:1', classMethod='com.zhouyi.yiblog.web.IndexController.login', args=[]}
+2019-09-21 21:43:51.783  INFO 9516 --- [http-nio-8080-exec-3] com.zhouyi.yiblog.aspect.LogAspect       : Result: admin/login
+2019-09-21 21:44:55.879  INFO 9516 --- [http-nio-8080-exec-3] com.zhouyi.yiblog.aspect.LogAspect       : Reuqest: RequestLog{url='http://localhost:8080/login', ip='0:0:0:0:0:0:0:1', classMethod='com.zhouyi.yiblog.web.IndexController.login', args=[]}
+2019-09-21 21:44:55.880  INFO 9516 --- [http-nio-8080-exec-3] com.zhouyi.yiblog.aspect.LogAspect       : Result: admin/login
+2019-09-21 21:44:56.849  INFO 9516 --- [http-nio-8080-exec-7] com.zhouyi.yiblog.aspect.LogAspect       : Reuqest: RequestLog{url='http://localhost:8080/login', ip='0:0:0:0:0:0:0:1', classMethod='com.zhouyi.yiblog.web.IndexController.login', args=[]}
+2019-09-21 21:44:56.849  INFO 9516 --- [http-nio-8080-exec-7] com.zhouyi.yiblog.aspect.LogAspect       : Result: admin/login
+2019-09-21 21:45:02.864  INFO 9516 --- [http-nio-8080-exec-3] com.zhouyi.yiblog.aspect.LogAspect       : Reuqest: RequestLog{url='http://localhost:8080/login', ip='0:0:0:0:0:0:0:1', classMethod='com.zhouyi.yiblog.web.IndexController.login', args=[]}
+2019-09-21 21:45:02.865  INFO 9516 --- [http-nio-8080-exec-3] com.zhouyi.yiblog.aspect.LogAspect       : Result: admin/login
+2019-09-21 21:45:03.849  INFO 9516 --- [http-nio-8080-exec-2] com.zhouyi.yiblog.aspect.LogAspect       : Reuqest: RequestLog{url='http://localhost:8080/login', ip='0:0:0:0:0:0:0:1', classMethod='com.zhouyi.yiblog.web.IndexController.login', args=[]}
+2019-09-21 21:45:03.850  INFO 9516 --- [http-nio-8080-exec-2] com.zhouyi.yiblog.aspect.LogAspect       : Result: admin/login
+2019-09-21 21:46:18.396  INFO 13792 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Starting YiblogApplication on USERCHI-COT0U3J with PID 13792 (C:\Users\Administrator\Documents\project\java\yiblog\target\classes started by YiZhou in C:\Users\Administrator\Documents\project\java\yiblog)
+2019-09-21 21:46:18.398 DEBUG 13792 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-21 21:46:18.398  INFO 13792 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : The following profiles are active: dev
+2019-09-21 21:46:18.455  INFO 13792 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-21 21:46:18.456  INFO 13792 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-21 21:46:19.059  INFO 13792 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-21 21:46:19.076  INFO 13792 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2019-09-21 21:46:19.321  INFO 13792 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1b615327] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-21 21:46:19.678  INFO 13792 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-09-21 21:46:19.701  INFO 13792 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-21 21:46:19.701  INFO 13792 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-21 21:46:19.798  INFO 13792 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-09-21 21:46:19.798  INFO 13792 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1342 ms
+2019-09-21 21:46:19.962  INFO 13792 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-09-21 21:46:20.036  INFO 13792 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-09-21 21:46:20.072  INFO 13792 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-21 21:46:20.111  INFO 13792 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-21 21:46:20.112  INFO 13792 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-09-21 21:46:20.201  INFO 13792 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-21 21:46:20.413  INFO 13792 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-21 21:46:21.174  INFO 13792 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-21 21:46:21.236  INFO 13792 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-21 21:46:21.495  INFO 13792 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-21 21:46:21.565  INFO 13792 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-09-21 21:46:21.970  INFO 13792 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-21 21:46:21.972  INFO 13792 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Started YiblogApplication in 3.927 seconds (JVM running for 4.437)
+2019-09-21 21:46:25.292  INFO 13792 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-21 21:46:25.292  INFO 13792 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-21 21:46:25.301  INFO 13792 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2019-09-21 21:46:25.319  INFO 13792 --- [http-nio-8080-exec-1] com.zhouyi.yiblog.aspect.LogAspect       : Reuqest: RequestLog{url='http://localhost:8080/login', ip='0:0:0:0:0:0:0:1', classMethod='com.zhouyi.yiblog.web.IndexController.login', args=[]}
+2019-09-21 21:46:25.322  INFO 13792 --- [http-nio-8080-exec-1] com.zhouyi.yiblog.aspect.LogAspect       : Result: admin/login
+2019-09-21 21:46:43.384  INFO 13792 --- [http-nio-8080-exec-3] com.zhouyi.yiblog.aspect.LogAspect       : Reuqest: RequestLog{url='http://localhost:8080/tags', ip='0:0:0:0:0:0:0:1', classMethod='com.zhouyi.yiblog.web.IndexController.tags', args=[]}
+2019-09-21 21:46:43.385  INFO 13792 --- [http-nio-8080-exec-3] com.zhouyi.yiblog.aspect.LogAspect       : Result: tags
+2019-09-21 21:46:49.889  INFO 13792 --- [http-nio-8080-exec-8] com.zhouyi.yiblog.aspect.LogAspect       : Reuqest: RequestLog{url='http://localhost:8080/blogs', ip='0:0:0:0:0:0:0:1', classMethod='com.zhouyi.yiblog.web.IndexController.blogs', args=[]}
+2019-09-21 21:46:49.890  INFO 13792 --- [http-nio-8080-exec-8] com.zhouyi.yiblog.aspect.LogAspect       : Result: admin/blogs
+2019-09-21 21:49:19.316  INFO 11288 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Starting YiblogApplication on USERCHI-COT0U3J with PID 11288 (C:\Users\Administrator\Documents\project\java\yiblog\target\classes started by YiZhou in C:\Users\Administrator\Documents\project\java\yiblog)
+2019-09-21 21:49:19.318 DEBUG 11288 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-21 21:49:19.318  INFO 11288 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : The following profiles are active: dev
+2019-09-21 21:49:19.384  INFO 11288 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-21 21:49:19.384  INFO 11288 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-21 21:49:19.970  INFO 11288 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-21 21:49:19.989  INFO 11288 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2019-09-21 21:49:20.231  INFO 11288 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$67aaf020] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-21 21:49:20.589  INFO 11288 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-09-21 21:49:20.612  INFO 11288 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-21 21:49:20.612  INFO 11288 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-21 21:49:20.707  INFO 11288 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-09-21 21:49:20.708  INFO 11288 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1324 ms
+2019-09-21 21:49:20.870  INFO 11288 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-09-21 21:49:20.945  INFO 11288 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-09-21 21:49:20.981  INFO 11288 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-21 21:49:21.022  INFO 11288 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-21 21:49:21.023  INFO 11288 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-09-21 21:49:21.111  INFO 11288 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-21 21:49:21.320  INFO 11288 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-21 21:49:22.107  INFO 11288 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-21 21:49:22.167  INFO 11288 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-21 21:49:22.424  INFO 11288 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-21 21:49:22.492  INFO 11288 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-09-21 21:49:22.898  INFO 11288 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-21 21:49:22.900  INFO 11288 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Started YiblogApplication in 3.975 seconds (JVM running for 4.504)
+2019-09-21 21:49:26.375  INFO 11288 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-21 21:49:26.375  INFO 11288 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-21 21:49:26.385  INFO 11288 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2019-09-21 21:49:26.403  INFO 11288 --- [http-nio-8080-exec-1] com.zhouyi.yiblog.aspect.LogAspect       : Reuqest: RequestLog{url='http://localhost:8080/login', ip='0:0:0:0:0:0:0:1', classMethod='com.zhouyi.yiblog.web.IndexController.login', args=[]}
+2019-09-21 21:49:26.405  INFO 11288 --- [http-nio-8080-exec-1] com.zhouyi.yiblog.aspect.LogAspect       : Result: admin/login
+2019-09-21 21:49:29.448  INFO 11288 --- [http-nio-8080-exec-3] com.zhouyi.yiblog.aspect.LogAspect       : Reuqest: RequestLog{url='http://localhost:8080/login', ip='0:0:0:0:0:0:0:1', classMethod='com.zhouyi.yiblog.web.IndexController.login', args=[]}
+2019-09-21 21:49:29.450  INFO 11288 --- [http-nio-8080-exec-3] com.zhouyi.yiblog.aspect.LogAspect       : Result: admin/login
+2019-09-21 21:49:30.400  INFO 11288 --- [http-nio-8080-exec-5] com.zhouyi.yiblog.aspect.LogAspect       : Reuqest: RequestLog{url='http://localhost:8080/login', ip='0:0:0:0:0:0:0:1', classMethod='com.zhouyi.yiblog.web.IndexController.login', args=[]}
+2019-09-21 21:49:30.401  INFO 11288 --- [http-nio-8080-exec-5] com.zhouyi.yiblog.aspect.LogAspect       : Result: admin/login
+2019-09-21 21:49:53.927  INFO 13208 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Starting YiblogApplication on USERCHI-COT0U3J with PID 13208 (C:\Users\Administrator\Documents\project\java\yiblog\target\classes started by YiZhou in C:\Users\Administrator\Documents\project\java\yiblog)
+2019-09-21 21:49:53.929 DEBUG 13208 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-21 21:49:53.929  INFO 13208 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : The following profiles are active: dev
+2019-09-21 21:49:53.994  INFO 13208 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-21 21:49:53.995  INFO 13208 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-21 21:49:54.569  INFO 13208 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-21 21:49:54.587  INFO 13208 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2019-09-21 21:49:54.831  INFO 13208 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6472828d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-21 21:49:55.196  INFO 13208 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-09-21 21:49:55.218  INFO 13208 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-21 21:49:55.219  INFO 13208 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-21 21:49:55.315  INFO 13208 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-09-21 21:49:55.315  INFO 13208 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1320 ms
+2019-09-21 21:49:55.482  INFO 13208 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-09-21 21:49:55.557  INFO 13208 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-09-21 21:49:55.593  INFO 13208 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-21 21:49:55.634  INFO 13208 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-21 21:49:55.635  INFO 13208 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-09-21 21:49:55.722  INFO 13208 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-21 21:49:55.934  INFO 13208 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-21 21:49:56.718  INFO 13208 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-21 21:49:56.784  INFO 13208 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-21 21:49:57.075  INFO 13208 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-21 21:49:57.151  INFO 13208 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-09-21 21:49:57.579  INFO 13208 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-21 21:49:57.581  INFO 13208 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Started YiblogApplication in 4.011 seconds (JVM running for 4.534)
+2019-09-21 21:49:58.092  INFO 13208 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-21 21:49:58.092  INFO 13208 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-21 21:49:58.102  INFO 13208 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2019-09-21 21:49:58.121  INFO 13208 --- [http-nio-8080-exec-1] com.zhouyi.yiblog.aspect.LogAspect       : Reuqest: RequestLog{url='http://localhost:8080/login', ip='0:0:0:0:0:0:0:1', classMethod='com.zhouyi.yiblog.web.IndexController.login', args=[]}
+2019-09-21 21:49:58.123  INFO 13208 --- [http-nio-8080-exec-1] com.zhouyi.yiblog.aspect.LogAspect       : Result: admin/login
+2019-09-21 21:50:00.479  INFO 13208 --- [http-nio-8080-exec-10] com.zhouyi.yiblog.aspect.LogAspect       : Reuqest: RequestLog{url='http://localhost:8080/login', ip='0:0:0:0:0:0:0:1', classMethod='com.zhouyi.yiblog.web.IndexController.login', args=[]}
+2019-09-21 21:50:00.480  INFO 13208 --- [http-nio-8080-exec-10] com.zhouyi.yiblog.aspect.LogAspect       : Result: admin/login
+2019-09-21 21:50:01.408  INFO 13208 --- [http-nio-8080-exec-3] com.zhouyi.yiblog.aspect.LogAspect       : Reuqest: RequestLog{url='http://localhost:8080/login', ip='0:0:0:0:0:0:0:1', classMethod='com.zhouyi.yiblog.web.IndexController.login', args=[]}
+2019-09-21 21:50:01.409  INFO 13208 --- [http-nio-8080-exec-3] com.zhouyi.yiblog.aspect.LogAspect       : Result: admin/login
+2019-09-21 21:50:02.048  INFO 13208 --- [http-nio-8080-exec-5] com.zhouyi.yiblog.aspect.LogAspect       : Reuqest: RequestLog{url='http://localhost:8080/login', ip='0:0:0:0:0:0:0:1', classMethod='com.zhouyi.yiblog.web.IndexController.login', args=[]}
+2019-09-21 21:50:02.049  INFO 13208 --- [http-nio-8080-exec-5] com.zhouyi.yiblog.aspect.LogAspect       : Result: admin/login
+2019-09-21 21:50:37.802  INFO 14660 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Starting YiblogApplication on USERCHI-COT0U3J with PID 14660 (C:\Users\Administrator\Documents\project\java\yiblog\target\classes started by YiZhou in C:\Users\Administrator\Documents\project\java\yiblog)
+2019-09-21 21:50:37.804 DEBUG 14660 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-21 21:50:37.804  INFO 14660 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : The following profiles are active: dev
+2019-09-21 21:50:37.876  INFO 14660 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-21 21:50:37.877  INFO 14660 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-21 21:50:38.599  INFO 14660 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-21 21:50:38.615  INFO 14660 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2019-09-21 21:50:38.866  INFO 14660 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$810266a1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-21 21:50:39.228  INFO 14660 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-09-21 21:50:39.244  INFO 14660 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-21 21:50:39.244  INFO 14660 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-21 21:50:39.350  INFO 14660 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-09-21 21:50:39.350  INFO 14660 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1473 ms
+2019-09-21 21:50:39.514  INFO 14660 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-09-21 21:50:39.591  INFO 14660 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-09-21 21:50:39.625  INFO 14660 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-21 21:50:39.667  INFO 14660 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-21 21:50:39.668  INFO 14660 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-09-21 21:50:39.760  INFO 14660 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-21 21:50:39.976  INFO 14660 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-21 21:50:40.757  INFO 14660 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-21 21:50:40.823  INFO 14660 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-21 21:50:41.077  INFO 14660 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-21 21:50:41.144  INFO 14660 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-09-21 21:50:41.555  INFO 14660 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-21 21:50:41.557  INFO 14660 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Started YiblogApplication in 4.153 seconds (JVM running for 4.916)
+2019-09-21 21:50:46.952  INFO 14660 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-21 21:50:46.952  INFO 14660 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-21 21:50:46.962  INFO 14660 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2019-09-21 21:50:46.980  INFO 14660 --- [http-nio-8080-exec-1] com.zhouyi.yiblog.aspect.LogAspect       : Reuqest: RequestLog{url='http://localhost:8080/login', ip='0:0:0:0:0:0:0:1', classMethod='com.zhouyi.yiblog.web.IndexController.login', args=[]}
+2019-09-21 21:50:46.983  INFO 14660 --- [http-nio-8080-exec-1] com.zhouyi.yiblog.aspect.LogAspect       : Result: admin/login
+2019-09-21 21:53:06.476  INFO 14324 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Starting YiblogApplication on USERCHI-COT0U3J with PID 14324 (C:\Users\Administrator\Documents\project\java\yiblog\target\classes started by YiZhou in C:\Users\Administrator\Documents\project\java\yiblog)
+2019-09-21 21:53:06.478 DEBUG 14324 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-21 21:53:06.479  INFO 14324 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : The following profiles are active: dev
+2019-09-21 21:53:06.543  INFO 14324 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-21 21:53:06.544  INFO 14324 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-21 21:53:07.141  INFO 14324 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-21 21:53:07.159  INFO 14324 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2019-09-21 21:53:07.414  INFO 14324 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c928d35b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-21 21:53:07.774  INFO 14324 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-09-21 21:53:07.789  INFO 14324 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-21 21:53:07.790  INFO 14324 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-21 21:53:07.892  INFO 14324 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-09-21 21:53:07.892  INFO 14324 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1348 ms
+2019-09-21 21:53:08.066  INFO 14324 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-09-21 21:53:08.166  INFO 14324 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-09-21 21:53:08.208  INFO 14324 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-21 21:53:08.252  INFO 14324 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-21 21:53:08.253  INFO 14324 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-09-21 21:53:08.356  INFO 14324 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-21 21:53:08.615  INFO 14324 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-21 21:53:09.725  INFO 14324 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-21 21:53:09.798  INFO 14324 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-21 21:53:10.065  INFO 14324 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-21 21:53:10.136  INFO 14324 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-09-21 21:53:10.569  INFO 14324 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-21 21:53:10.571  INFO 14324 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Started YiblogApplication in 4.446 seconds (JVM running for 5.06)
+2019-09-21 21:53:11.953  INFO 14324 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-21 21:53:11.953  INFO 14324 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-21 21:53:11.962  INFO 14324 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2019-09-21 21:53:11.980  INFO 14324 --- [http-nio-8080-exec-1] com.zhouyi.yiblog.aspect.LogAspect       : Reuqest: RequestLog{url='http://localhost:8080/login', ip='0:0:0:0:0:0:0:1', classMethod='com.zhouyi.yiblog.web.IndexController.login', args=[]}
+2019-09-21 21:53:11.983  INFO 14324 --- [http-nio-8080-exec-1] com.zhouyi.yiblog.aspect.LogAspect       : Result: admin/login
+2019-09-21 21:53:36.505  INFO 14324 --- [http-nio-8080-exec-2] com.zhouyi.yiblog.aspect.LogAspect       : Reuqest: RequestLog{url='http://localhost:8080/login', ip='0:0:0:0:0:0:0:1', classMethod='com.zhouyi.yiblog.web.IndexController.login', args=[]}
+2019-09-21 21:53:36.506  INFO 14324 --- [http-nio-8080-exec-2] com.zhouyi.yiblog.aspect.LogAspect       : Result: admin/login
+2019-09-21 21:53:37.498  INFO 14324 --- [http-nio-8080-exec-3] com.zhouyi.yiblog.aspect.LogAspect       : Reuqest: RequestLog{url='http://localhost:8080/login', ip='0:0:0:0:0:0:0:1', classMethod='com.zhouyi.yiblog.web.IndexController.login', args=[]}
+2019-09-21 21:53:37.499  INFO 14324 --- [http-nio-8080-exec-3] com.zhouyi.yiblog.aspect.LogAspect       : Result: admin/login
+2019-09-21 21:53:54.233  INFO 14324 --- [http-nio-8080-exec-2] com.zhouyi.yiblog.aspect.LogAspect       : Reuqest: RequestLog{url='http://localhost:8080/login', ip='0:0:0:0:0:0:0:1', classMethod='com.zhouyi.yiblog.web.IndexController.login', args=[]}
+2019-09-21 21:53:54.234  INFO 14324 --- [http-nio-8080-exec-2] com.zhouyi.yiblog.aspect.LogAspect       : Result: admin/login
+2019-09-21 21:53:55.193  INFO 14324 --- [http-nio-8080-exec-8] com.zhouyi.yiblog.aspect.LogAspect       : Reuqest: RequestLog{url='http://localhost:8080/login', ip='0:0:0:0:0:0:0:1', classMethod='com.zhouyi.yiblog.web.IndexController.login', args=[]}
+2019-09-21 21:53:55.193  INFO 14324 --- [http-nio-8080-exec-8] com.zhouyi.yiblog.aspect.LogAspect       : Result: admin/login
+2019-09-21 21:53:55.920  INFO 14324 --- [http-nio-8080-exec-1] com.zhouyi.yiblog.aspect.LogAspect       : Reuqest: RequestLog{url='http://localhost:8080/login', ip='0:0:0:0:0:0:0:1', classMethod='com.zhouyi.yiblog.web.IndexController.login', args=[]}
+2019-09-21 21:53:55.921  INFO 14324 --- [http-nio-8080-exec-1] com.zhouyi.yiblog.aspect.LogAspect       : Result: admin/login
+2019-09-21 21:55:46.800  INFO 14324 --- [http-nio-8080-exec-1] com.zhouyi.yiblog.aspect.LogAspect       : Reuqest: RequestLog{url='http://localhost:8080/login', ip='0:0:0:0:0:0:0:1', classMethod='com.zhouyi.yiblog.web.IndexController.login', args=[]}
+2019-09-21 21:55:46.800  INFO 14324 --- [http-nio-8080-exec-1] com.zhouyi.yiblog.aspect.LogAspect       : Result: admin/login
+2019-09-21 21:57:06.721  INFO 14324 --- [http-nio-8080-exec-1] com.zhouyi.yiblog.aspect.LogAspect       : Reuqest: RequestLog{url='http://localhost:8080/login', ip='0:0:0:0:0:0:0:1', classMethod='com.zhouyi.yiblog.web.IndexController.login', args=[]}
+2019-09-21 21:57:06.722  INFO 14324 --- [http-nio-8080-exec-1] com.zhouyi.yiblog.aspect.LogAspect       : Result: admin/login
+2019-09-21 21:57:07.849  INFO 14324 --- [http-nio-8080-exec-2] com.zhouyi.yiblog.aspect.LogAspect       : Reuqest: RequestLog{url='http://localhost:8080/login', ip='0:0:0:0:0:0:0:1', classMethod='com.zhouyi.yiblog.web.IndexController.login', args=[]}
+2019-09-21 21:57:07.849  INFO 14324 --- [http-nio-8080-exec-2] com.zhouyi.yiblog.aspect.LogAspect       : Result: admin/login
+2019-09-21 21:57:08.094  INFO 14324 --- [http-nio-8080-exec-9] com.zhouyi.yiblog.aspect.LogAspect       : Reuqest: RequestLog{url='http://localhost:8080/login', ip='0:0:0:0:0:0:0:1', classMethod='com.zhouyi.yiblog.web.IndexController.login', args=[]}
+2019-09-21 21:57:08.096  INFO 14324 --- [http-nio-8080-exec-9] com.zhouyi.yiblog.aspect.LogAspect       : Result: admin/login
+2019-09-21 22:19:33.205  INFO 14228 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Starting YiblogApplication on USERCHI-COT0U3J with PID 14228 (C:\Users\Administrator\Documents\project\java\yiblog\target\classes started by YiZhou in C:\Users\Administrator\Documents\project\java\yiblog)
+2019-09-21 22:19:33.207 DEBUG 14228 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-21 22:19:33.207  INFO 14228 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : The following profiles are active: dev
+2019-09-21 22:19:33.266  INFO 14228 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-21 22:19:33.267  INFO 14228 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-21 22:19:33.867  INFO 14228 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-21 22:19:33.883  INFO 14228 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2019-09-21 22:19:34.140  INFO 14228 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ee476d24] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-21 22:19:34.531  INFO 14228 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-09-21 22:19:34.556  INFO 14228 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-21 22:19:34.556  INFO 14228 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-21 22:19:34.673  INFO 14228 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-09-21 22:19:34.674  INFO 14228 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1407 ms
+2019-09-21 22:19:34.839  INFO 14228 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-09-21 22:19:34.916  INFO 14228 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-09-21 22:19:34.953  INFO 14228 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-21 22:19:34.994  INFO 14228 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-21 22:19:34.995  INFO 14228 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-09-21 22:19:35.085  INFO 14228 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-21 22:19:35.318  INFO 14228 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-21 22:19:36.054  INFO 14228 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-21 22:19:36.133  INFO 14228 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-21 22:19:36.455  INFO 14228 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-21 22:19:36.537  INFO 14228 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-09-21 22:19:37.009  INFO 14228 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-21 22:19:37.011  INFO 14228 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Started YiblogApplication in 4.161 seconds (JVM running for 4.676)
+2019-09-21 22:19:37.384  INFO 14228 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-21 22:19:37.384  INFO 14228 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-21 22:19:37.394  INFO 14228 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2019-09-21 22:19:37.412  INFO 14228 --- [http-nio-8080-exec-1] com.zhouyi.yiblog.aspect.LogAspect       : Reuqest: RequestLog{url='http://localhost:8080/login', ip='0:0:0:0:0:0:0:1', classMethod='com.zhouyi.yiblog.web.IndexController.login', args=[]}
+2019-09-21 22:19:37.415  INFO 14228 --- [http-nio-8080-exec-1] com.zhouyi.yiblog.aspect.LogAspect       : Result: admin/login
+2019-09-21 23:05:02.924  INFO 8908 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Starting YiblogApplication on USERCHI-COT0U3J with PID 8908 (C:\Users\Administrator\Documents\project\java\yiblog\target\classes started by YiZhou in C:\Users\Administrator\Documents\project\java\yiblog)
+2019-09-21 23:05:02.926 DEBUG 8908 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-21 23:05:02.926  INFO 8908 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : The following profiles are active: dev
+2019-09-21 23:05:02.994  INFO 8908 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-21 23:05:02.994  INFO 8908 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-21 23:05:03.591  INFO 8908 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-21 23:05:03.645  INFO 8908 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49ms. Found 1 repository interfaces.
+2019-09-21 23:05:03.895  INFO 8908 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a086eb47] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-21 23:05:04.263  INFO 8908 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-09-21 23:05:04.278  INFO 8908 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-21 23:05:04.279  INFO 8908 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-21 23:05:04.376  INFO 8908 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-09-21 23:05:04.376  INFO 8908 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1382 ms
+2019-09-21 23:05:04.540  INFO 8908 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-09-21 23:05:04.620  INFO 8908 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-09-21 23:05:04.659  INFO 8908 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-21 23:05:04.702  INFO 8908 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-21 23:05:04.703  INFO 8908 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-09-21 23:05:04.795  INFO 8908 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-21 23:05:05.011  INFO 8908 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-21 23:05:05.697  INFO 8908 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-21 23:05:05.747  INFO 8908 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-21 23:05:05.772  WARN 8908 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'loginController': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.zhouyi.yiblog.service.UserService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-09-21 23:05:05.772  INFO 8908 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-09-21 23:05:05.775  INFO 8908 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-09-21 23:05:05.778  INFO 8908 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-09-21 23:05:05.779  INFO 8908 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-09-21 23:05:05.788  INFO 8908 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-09-21 23:05:05.955 ERROR 8908 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userService in com.zhouyi.yiblog.web.admin.LoginController required a bean of type 'com.zhouyi.yiblog.service.UserService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.zhouyi.yiblog.service.UserService' in your configuration.
+
+2019-09-21 23:06:24.257  INFO 12064 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Starting YiblogApplication on USERCHI-COT0U3J with PID 12064 (C:\Users\Administrator\Documents\project\java\yiblog\target\classes started by YiZhou in C:\Users\Administrator\Documents\project\java\yiblog)
+2019-09-21 23:06:24.259 DEBUG 12064 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-21 23:06:24.259  INFO 12064 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : The following profiles are active: dev
+2019-09-21 23:06:24.326  INFO 12064 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-21 23:06:24.326  INFO 12064 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-21 23:06:24.997  INFO 12064 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-21 23:06:25.047  INFO 12064 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45ms. Found 1 repository interfaces.
+2019-09-21 23:06:25.299  INFO 12064 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2d53344] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-21 23:06:25.664  INFO 12064 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-09-21 23:06:25.680  INFO 12064 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-21 23:06:25.681  INFO 12064 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-21 23:06:25.778  INFO 12064 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-09-21 23:06:25.778  INFO 12064 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1452 ms
+2019-09-21 23:06:25.938  INFO 12064 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-09-21 23:06:26.017  INFO 12064 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-09-21 23:06:26.055  INFO 12064 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-21 23:06:26.097  INFO 12064 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-21 23:06:26.099  INFO 12064 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-09-21 23:06:26.191  INFO 12064 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-21 23:06:26.407  INFO 12064 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-21 23:06:27.084  INFO 12064 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-21 23:06:27.134  INFO 12064 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-21 23:06:27.697  INFO 12064 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-21 23:06:27.770  INFO 12064 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-09-21 23:06:28.199  INFO 12064 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-21 23:06:28.200  INFO 12064 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Started YiblogApplication in 4.316 seconds (JVM running for 4.838)
+2019-09-21 23:06:39.128  INFO 12064 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-21 23:06:39.128  INFO 12064 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-21 23:06:39.137  INFO 12064 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2019-09-21 23:06:39.154  INFO 12064 --- [http-nio-8080-exec-2] com.zhouyi.yiblog.aspect.LogAspect       : Reuqest: RequestLog{url='http://localhost:8080/login', ip='0:0:0:0:0:0:0:1', classMethod='com.zhouyi.yiblog.web.IndexController.login', args=[]}
+2019-09-21 23:06:39.158  INFO 12064 --- [http-nio-8080-exec-2] com.zhouyi.yiblog.aspect.LogAspect       : Result: admin/login
+2019-09-21 23:10:58.815  INFO 15032 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Starting YiblogApplication on USERCHI-COT0U3J with PID 15032 (C:\Users\Administrator\Documents\project\java\yiblog\target\classes started by YiZhou in C:\Users\Administrator\Documents\project\java\yiblog)
+2019-09-21 23:10:58.817 DEBUG 15032 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-21 23:10:58.817  INFO 15032 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : The following profiles are active: dev
+2019-09-21 23:10:58.876  INFO 15032 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-21 23:10:58.876  INFO 15032 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-21 23:10:59.437  INFO 15032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-21 23:10:59.487  INFO 15032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44ms. Found 1 repository interfaces.
+2019-09-21 23:10:59.741  INFO 15032 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ca792075] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-21 23:11:00.106  INFO 15032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-09-21 23:11:00.122  INFO 15032 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-21 23:11:00.122  INFO 15032 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-21 23:11:00.217  INFO 15032 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-09-21 23:11:00.218  INFO 15032 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1341 ms
+2019-09-21 23:11:00.378  INFO 15032 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-09-21 23:11:00.456  INFO 15032 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-09-21 23:11:00.494  INFO 15032 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-21 23:11:00.537  INFO 15032 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-21 23:11:00.540  INFO 15032 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-09-21 23:11:00.631  INFO 15032 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-21 23:11:00.846  INFO 15032 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-21 23:11:01.541  INFO 15032 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-21 23:11:01.593  INFO 15032 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-21 23:11:02.130  INFO 15032 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-21 23:11:02.202  INFO 15032 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-09-21 23:11:02.632  INFO 15032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-21 23:11:02.634  INFO 15032 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Started YiblogApplication in 4.186 seconds (JVM running for 4.693)
+2019-09-21 23:11:04.886  INFO 15032 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-21 23:11:04.886  INFO 15032 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-21 23:11:04.895  INFO 15032 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2019-09-21 23:12:16.597  INFO 14396 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Starting YiblogApplication on USERCHI-COT0U3J with PID 14396 (C:\Users\Administrator\Documents\project\java\yiblog\target\classes started by YiZhou in C:\Users\Administrator\Documents\project\java\yiblog)
+2019-09-21 23:12:16.599 DEBUG 14396 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-21 23:12:16.599  INFO 14396 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : The following profiles are active: dev
+2019-09-21 23:12:16.677  INFO 14396 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-21 23:12:16.678  INFO 14396 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-21 23:12:17.237  INFO 14396 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-21 23:12:17.288  INFO 14396 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47ms. Found 1 repository interfaces.
+2019-09-21 23:12:17.538  INFO 14396 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$525474d5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-21 23:12:17.903  INFO 14396 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-09-21 23:12:17.918  INFO 14396 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-21 23:12:17.918  INFO 14396 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-21 23:12:18.016  INFO 14396 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-09-21 23:12:18.016  INFO 14396 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1338 ms
+2019-09-21 23:12:18.175  INFO 14396 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-09-21 23:12:18.252  INFO 14396 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-09-21 23:12:18.289  INFO 14396 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-21 23:12:18.330  INFO 14396 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-21 23:12:18.331  INFO 14396 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-09-21 23:12:18.422  INFO 14396 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-21 23:12:18.637  INFO 14396 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-21 23:12:19.310  INFO 14396 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-21 23:12:19.359  INFO 14396 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-21 23:12:19.901  INFO 14396 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-21 23:12:19.984  INFO 14396 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-09-21 23:12:20.376  INFO 14396 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-21 23:12:20.378  INFO 14396 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Started YiblogApplication in 4.144 seconds (JVM running for 4.763)
+2019-09-21 23:12:22.983  INFO 14396 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-21 23:12:22.984  INFO 14396 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-21 23:12:22.992  INFO 14396 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-09-21 23:12:28.944  INFO 14396 --- [http-nio-8080-exec-3] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-09-21 23:15:52.372  INFO 13668 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Starting YiblogApplication on USERCHI-COT0U3J with PID 13668 (C:\Users\Administrator\Documents\project\java\yiblog\target\classes started by YiZhou in C:\Users\Administrator\Documents\project\java\yiblog)
+2019-09-21 23:15:52.374 DEBUG 13668 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-21 23:15:52.374  INFO 13668 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : The following profiles are active: dev
+2019-09-21 23:15:52.461  INFO 13668 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-21 23:15:52.462  INFO 13668 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-21 23:15:53.088  INFO 13668 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-21 23:15:53.139  INFO 13668 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46ms. Found 1 repository interfaces.
+2019-09-21 23:15:53.417  INFO 13668 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d12385fd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-21 23:15:53.789  INFO 13668 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-09-21 23:15:53.823  INFO 13668 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-21 23:15:53.824  INFO 13668 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-21 23:15:53.949  INFO 13668 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-09-21 23:15:53.949  INFO 13668 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1487 ms
+2019-09-21 23:15:54.121  INFO 13668 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-09-21 23:15:54.209  INFO 13668 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-09-21 23:15:54.247  INFO 13668 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-21 23:15:54.290  INFO 13668 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-21 23:15:54.291  INFO 13668 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-09-21 23:15:54.381  INFO 13668 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-21 23:15:54.600  INFO 13668 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-21 23:15:55.281  INFO 13668 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-21 23:15:55.330  INFO 13668 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-21 23:15:55.872  INFO 13668 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-21 23:15:55.941  INFO 13668 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-09-21 23:15:56.335  INFO 13668 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-21 23:15:56.336  INFO 13668 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Started YiblogApplication in 4.35 seconds (JVM running for 4.869)
+2019-09-21 23:15:58.865  INFO 13668 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-21 23:15:58.865  INFO 13668 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-21 23:15:58.873  INFO 13668 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-09-21 23:16:00.891  INFO 13668 --- [http-nio-8080-exec-4] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-09-21 23:17:13.270  INFO 3484 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Starting YiblogApplication on USERCHI-COT0U3J with PID 3484 (C:\Users\Administrator\Documents\project\java\yiblog\target\classes started by YiZhou in C:\Users\Administrator\Documents\project\java\yiblog)
+2019-09-21 23:17:13.273 DEBUG 3484 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-21 23:17:13.273  INFO 3484 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : The following profiles are active: dev
+2019-09-21 23:17:13.351  INFO 3484 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-21 23:17:13.352  INFO 3484 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-21 23:17:14.028  INFO 3484 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-21 23:17:14.083  INFO 3484 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48ms. Found 1 repository interfaces.
+2019-09-21 23:17:14.338  INFO 3484 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f07cecb7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-21 23:17:14.762  INFO 3484 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-09-21 23:17:14.781  INFO 3484 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-21 23:17:14.781  INFO 3484 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-21 23:17:14.878  INFO 3484 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-09-21 23:17:14.878  INFO 3484 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1526 ms
+2019-09-21 23:17:15.050  INFO 3484 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-09-21 23:17:15.125  INFO 3484 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-09-21 23:17:15.162  INFO 3484 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-21 23:17:15.206  INFO 3484 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-21 23:17:15.207  INFO 3484 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-09-21 23:17:15.296  INFO 3484 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-21 23:17:15.506  INFO 3484 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-21 23:17:16.175  INFO 3484 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-21 23:17:16.225  INFO 3484 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-21 23:17:16.760  INFO 3484 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-21 23:17:16.835  INFO 3484 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-09-21 23:17:17.241  INFO 3484 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-21 23:17:17.243  INFO 3484 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Started YiblogApplication in 4.339 seconds (JVM running for 4.88)
+2019-09-21 23:17:21.894  INFO 3484 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-21 23:17:21.894  INFO 3484 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-21 23:17:21.905  INFO 3484 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2019-09-21 23:17:24.138  INFO 3484 --- [http-nio-8080-exec-4] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-09-21 23:21:54.206  INFO 200 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Starting YiblogApplication on USERCHI-COT0U3J with PID 200 (C:\Users\Administrator\Documents\project\java\yiblog\target\classes started by YiZhou in C:\Users\Administrator\Documents\project\java\yiblog)
+2019-09-21 23:21:54.208 DEBUG 200 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-21 23:21:54.208  INFO 200 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : The following profiles are active: dev
+2019-09-21 23:21:54.291  INFO 200 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-21 23:21:54.291  INFO 200 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-21 23:21:54.959  INFO 200 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-21 23:21:55.010  INFO 200 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45ms. Found 1 repository interfaces.
+2019-09-21 23:21:55.256  INFO 200 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a418144c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-21 23:21:55.627  INFO 200 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-09-21 23:21:55.642  INFO 200 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-21 23:21:55.642  INFO 200 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-21 23:21:55.739  INFO 200 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-09-21 23:21:55.740  INFO 200 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1448 ms
+2019-09-21 23:21:55.903  INFO 200 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-09-21 23:21:55.979  INFO 200 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-09-21 23:21:56.018  INFO 200 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-21 23:21:56.061  INFO 200 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-21 23:21:56.062  INFO 200 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-09-21 23:21:56.153  INFO 200 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-21 23:21:56.369  INFO 200 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-21 23:21:57.044  INFO 200 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-21 23:21:57.097  INFO 200 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-21 23:21:57.670  INFO 200 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-21 23:21:57.739  INFO 200 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-09-21 23:21:58.145  INFO 200 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-21 23:21:58.148  INFO 200 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Started YiblogApplication in 4.359 seconds (JVM running for 4.884)
+2019-09-21 23:22:05.885  INFO 200 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-21 23:22:05.886  INFO 200 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-21 23:22:05.895  INFO 200 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2019-09-21 23:22:07.341  INFO 200 --- [http-nio-8080-exec-2] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-09-21 23:27:11.592  INFO 6376 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Starting YiblogApplication on USERCHI-COT0U3J with PID 6376 (C:\Users\Administrator\Documents\project\java\yiblog\target\classes started by YiZhou in C:\Users\Administrator\Documents\project\java\yiblog)
+2019-09-21 23:27:11.594 DEBUG 6376 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-21 23:27:11.595  INFO 6376 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : The following profiles are active: dev
+2019-09-21 23:27:11.653  INFO 6376 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-21 23:27:11.653  INFO 6376 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-21 23:27:12.275  INFO 6376 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-21 23:27:12.324  INFO 6376 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45ms. Found 1 repository interfaces.
+2019-09-21 23:27:12.578  INFO 6376 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e3987ed1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-21 23:27:12.940  INFO 6376 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-09-21 23:27:12.956  INFO 6376 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-21 23:27:12.956  INFO 6376 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-21 23:27:13.050  INFO 6376 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-09-21 23:27:13.051  INFO 6376 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1398 ms
+2019-09-21 23:27:13.211  INFO 6376 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-09-21 23:27:13.287  INFO 6376 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-09-21 23:27:13.324  INFO 6376 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-21 23:27:13.364  INFO 6376 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-21 23:27:13.365  INFO 6376 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-09-21 23:27:13.453  INFO 6376 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-21 23:27:13.666  INFO 6376 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-21 23:27:14.328  INFO 6376 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-21 23:27:14.377  INFO 6376 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-21 23:27:14.910  INFO 6376 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-21 23:27:14.980  INFO 6376 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-09-21 23:27:15.400  INFO 6376 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-21 23:27:15.402  INFO 6376 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Started YiblogApplication in 4.17 seconds (JVM running for 4.677)
+2019-09-21 23:28:36.300  INFO 6376 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-21 23:28:36.301  INFO 6376 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-21 23:28:36.309  INFO 6376 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-09-21 23:28:38.640  INFO 6376 --- [http-nio-8080-exec-6] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-09-21 23:36:10.293  INFO 11496 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Starting YiblogApplication on USERCHI-COT0U3J with PID 11496 (C:\Users\Administrator\Documents\project\java\yiblog\target\classes started by YiZhou in C:\Users\Administrator\Documents\project\java\yiblog)
+2019-09-21 23:36:10.295 DEBUG 11496 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-21 23:36:10.295  INFO 11496 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : The following profiles are active: dev
+2019-09-21 23:36:10.359  INFO 11496 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-21 23:36:10.359  INFO 11496 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-21 23:36:11.022  INFO 11496 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-21 23:36:11.073  INFO 11496 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46ms. Found 1 repository interfaces.
+2019-09-21 23:36:11.326  INFO 11496 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$60931b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-21 23:36:11.694  INFO 11496 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-09-21 23:36:11.710  INFO 11496 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-21 23:36:11.710  INFO 11496 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-21 23:36:11.808  INFO 11496 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-09-21 23:36:11.808  INFO 11496 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1449 ms
+2019-09-21 23:36:11.968  INFO 11496 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-09-21 23:36:12.044  INFO 11496 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-09-21 23:36:12.082  INFO 11496 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-21 23:36:12.122  INFO 11496 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-21 23:36:12.123  INFO 11496 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-09-21 23:36:12.213  INFO 11496 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-21 23:36:12.427  INFO 11496 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-21 23:36:13.096  INFO 11496 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-21 23:36:13.147  INFO 11496 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-21 23:36:13.692  INFO 11496 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-21 23:36:13.771  INFO 11496 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-09-21 23:36:14.184  INFO 11496 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-21 23:36:14.186  INFO 11496 --- [restartedMain] com.zhouyi.yiblog.YiblogApplication      : Started YiblogApplication in 4.263 seconds (JVM running for 4.794)
+2019-09-21 23:36:23.092  INFO 11496 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-21 23:36:23.093  INFO 11496 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-21 23:36:23.102  INFO 11496 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2019-09-21 23:36:23.257  INFO 11496 --- [http-nio-8080-exec-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory

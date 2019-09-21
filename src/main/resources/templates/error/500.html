@@ -1,10 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head th:replace="_fragment :: head(~{::title})">
     <meta charset="UTF-8">
-    <title>500</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <link rel="stylesheet" href="../../static/css/me.css">
+    <title>500错误页面</title>
 </head>
 <body>
-    <h1>500</h1>
+<!--导航-->
+<nav th:replace="_fragment :: menu(1)" class="ui inverted attached segment m-padded-tb-mini m-shadow-small">
+</nav>
+<br>
+<br>
+<br>
+<br>
+<div class="m-container-small m-padded-tb-massive">
+    <div class="ui error message m-padded-tb-huge">
+        <div class="ui container">
+            <h2>500</h2>
+            <p><i class="big jenkins icon"></i>服务器内部错误，无法履行请求</p>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<!--底部-->
+<footer th:replace="_fragment :: footer" class="ui inverted vertical segment m-padded-tb-massive">
+</footer>
 </body>
 </html>

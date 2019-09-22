@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
     <link rel="stylesheet" href="../../static/css/me.css">
-    <title>博客管理</title>
+    <title>分类管理</title>
 </head>
 <body>
 <!--导航-->
-<nav th:replace="admin/_fragment :: menu(1)" class="ui inverted attached segment m-padded-tb-mini m-shadow-small">
+<nav th:replace="admin/_fragment :: menu(2)" class="ui inverted attached segment m-padded-tb-mini m-shadow-small">
     <div class="ui container">
         <div class="ui inverted secondary stackable menu ">
             <h2 class="ui teal header item">管理后台</h2>
@@ -47,100 +47,21 @@
 <!--中间内容-->
 <div class="m-container-small m-padded-tb-big">
     <div class="ui container">
-        <form action="#" method="post" class="ui segment form">
-            <div class="inline fields">
-                <div class="field">
-                    <input type="text" name="title" placeholder="标题">
-                </div>
-                <div class="field">
-                    <div class="ui selection dropdown">
-                        <input type="hidden" name="type">
-                        <i class="dropdown icon"></i>
-                        <div class="default text">分类</div>
-                        <div class="menu">
-                            <div class="item" data-value="1">错误日志</div>
-                            <div class="item" data-value="2">开发者手册</div>
-                            <div class="item" data-value="3">牛人升级</div>
-                            <div class="item" data-value="4">吃麦当劳</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="field">
-                    <div class="ui checkbox">
-                        <input type="checkbox" id="recommend" name="recommend">
-                        <label for="recommend">推荐</label>
-                    </div>
-                </div>
-                <div class="field">
-                    <button class="ui mini basic teal button"><i class="search icon"></i>搜索</button>
-                </div>
-            </div>
-        </form>
         <table class="ui celled teal table">
             <thead>
                 <tr>
                     <th></th>
-                    <th>标题</th>
-                    <th>类型</th>
-                    <th>推荐</th>
-                    <th>更新时间</th>
+                    <th>名称</th>
                     <th>操作</th>
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>到底怎样才能成为牛人</td>
-                    <td>牛人升级</td>
-                    <td>是</td>
-                    <td>2019-09-19 09:45</td>
+                <tr th:each="type,iterStat : ${page.content}">
+                    <td th:text="${iterStat.count}">1</td>
+                    <td th:text="${type.name}">牛人升级</td>
                     <td>
-                        <a href="#" class="ui basic mini teal button">编辑</a>
-                        <a href="#" class="ui mini red button">删除</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>怎样优雅吃麦当劳那么大鸡排</td>
-                    <td>吃麦当劳</td>
-                    <td>否</td>
-                    <td>2019-09-19 09:30</td>
-                    <td>
-                        <a href="#" class="ui mini teal basic button">编辑</a>
-                        <a href="#" class="ui mini red button">删除</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>地铁中的运球技巧</td>
-                    <td>运球上班</td>
-                    <td>是</td>
-                    <td>2019-09-18 08:30</td>
-                    <td>
-                        <a href="#" class="ui mini teal basic button">编辑</a>
-                        <a href="#" class="ui mini red button">删除</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>领取免费薯条方法3则</td>
-                    <td>吃麦当劳</td>
-                    <td>是</td>
-                    <td>2019-09-17 13:30</td>
-                    <td>
-                        <a href="#" class="ui mini basic teal button">编辑</a>
-                        <a href="#" class="ui mini red button">删除</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>5</td>
-                    <td>塘桥快递员踩雷记录</td>
-                    <td>垃圾快递</td>
-                    <td>是</td>
-                    <td>2019-09-16 3:30</td>
-                    <td>
-                        <a href="#" class="ui mini basic teal button">编辑</a>
-                        <a href="#" class="ui mini red button">删除</a>
+                        <a href="#" th:href="@{/admin/types/{id}/input(id=${type.id})}" class="ui basic mini teal button">编辑</a>
+                        <a href="#" th:href="@{/admin/types/{id}/delete(id=${type.id})}" class="ui mini red button">删除</a>
                     </td>
                 </tr>
             </tbody>
@@ -148,10 +69,10 @@
                 <tr>
                     <th colspan="6">
                         <div class="ui mini pagination menu">
-                            <a href="#" class="item">上一页</a>
-                            <a href="#" class="item">下一页</a>
+                            <a th:href="@{/admin/types(page=${page.number}-1)}" class="item">上一页</a>
+                            <a th:href="@{/admin/types(page=${page.number}+1)}" href="#" class="item">下一页</a>
                         </div>
-                        <a href="#" class="ui mini basic right floated teal button">新增</a>
+                        <a href="#" th:href="@{/admin/types/input}" class="ui mini basic right floated teal button">新增</a>
                     </th>
                 </tr>
             </tfoot>

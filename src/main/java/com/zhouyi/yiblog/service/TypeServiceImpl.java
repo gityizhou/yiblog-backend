@@ -30,7 +30,7 @@ public class TypeServiceImpl implements TypeService {
         Optional<Type> getType = typeRepository.findById(id);
         Type t = getType.orElse(null);
         if (t == null) {
-            throw new NotFoundException("该标签不存在");
+            throw new NotFoundException("该分类不存在");
         }
         return t;
 
@@ -58,5 +58,10 @@ public class TypeServiceImpl implements TypeService {
     @Override
     public void deleteType(Long id) {
         typeRepository.deleteById(id);
+    }
+
+    @Override
+    public Type getTypeByName(String name) {
+        return typeRepository.findByName(name);
     }
 }

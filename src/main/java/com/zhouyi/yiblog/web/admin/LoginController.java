@@ -3,7 +3,6 @@ package com.zhouyi.yiblog.web.admin;
 
 import com.zhouyi.yiblog.po.User;
 import com.zhouyi.yiblog.service.UserService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -16,8 +15,12 @@ import javax.servlet.http.HttpSession;
 @Controller
 @RequestMapping("/admin")
 public class LoginController {
-    @Autowired
-    private UserService userService;
+
+    private final UserService userService;
+    // 使用构造方法注入userService
+    public LoginController(UserService userService) {
+        this.userService = userService;
+    }
 
     @GetMapping
     public String loginPage() {
@@ -28,7 +31,7 @@ public class LoginController {
     public String login(HttpSession session, @RequestParam String username, @RequestParam String password, RedirectAttributes attributes) {
         User user = userService.checkUser(username, password);
         if (user != null) {
-            user.setPassword(null);  // 验证结束后，把密码设置成null，更加安全
+            user.setPassword(null);  // 验证结束后，马上把密码设置成null，更加安全
             session.setAttribute("user", user);
             return "admin/index";
         } else {

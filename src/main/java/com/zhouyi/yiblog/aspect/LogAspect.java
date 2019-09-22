@@ -28,7 +28,7 @@ public class LogAspect {
         HttpServletRequest request = attributes.getRequest();
         String url = request.getRequestURL().toString();
         String ip = request.getRemoteAddr();
-        String classMethod = joinPoint.getSignature().getDeclaringTypeName() + "." +  joinPoint.getSignature().getName();
+        String classMethod = joinPoint.getSignature().getDeclaringTypeName() + "." + joinPoint.getSignature().getName();
         Object[] args = joinPoint.getArgs();
         RequestLog requestLog = new RequestLog(url, ip, classMethod, args);
 
@@ -36,22 +36,20 @@ public class LogAspect {
     }
 
     @After("log()")
-    public void doAfter() {
-//        logger.info("----------------doAfter-----------------");
-    }
+    public void doAfter() {}
 
     @AfterReturning(returning = "result", pointcut = "log()")
     public void doAfterReturn(Object result) {
         logger.info("Result: {}", result);
     }
 
-    private class RequestLog{
+    private static class RequestLog {
         private String url;
         private String ip;
         private String classMethod;
         private Object[] args;
 
-        public RequestLog(String url, String ip, String classMethod, Object[] args) {
+        RequestLog(String url, String ip, String classMethod, Object[] args) {
             this.url = url;
             this.ip = ip;
             this.classMethod = classMethod;

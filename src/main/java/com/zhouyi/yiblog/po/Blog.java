@@ -13,6 +13,8 @@ public class Blog {
     private Long id;
 
     private String title;
+    @Basic(fetch = FetchType.LAZY)
+    @Lob
     private String content;
     private String firstPicture; // 首页图
     private String flag;  // 标记，原创转载翻译
@@ -36,6 +38,9 @@ public class Blog {
 
     @OneToMany(mappedBy = "blog")
     private List<Comment> comments = new ArrayList<>();
+
+    @Transient
+    private String tagIds;
 
     public Blog() {
     }
@@ -166,6 +171,14 @@ public class Blog {
 
     public void setUser(User user) {
         this.user = user;
+    }
+
+    public String getTagIds() {
+        return tagIds;
+    }
+
+    public void setTagIds(String tagIds) {
+        this.tagIds = tagIds;
     }
 
     public List<Comment> getComments() {

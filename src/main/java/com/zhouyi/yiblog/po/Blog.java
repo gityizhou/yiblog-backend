@@ -9,7 +9,7 @@ import java.util.List;
 @Table(name = "t_blog")
 public class Blog {
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     private String title;
@@ -30,7 +30,7 @@ public class Blog {
     private Date updateTime;
     @ManyToOne
     private Type type;
-    @ManyToMany(cascade = {CascadeType.PERSIST})
+    @ManyToMany(cascade = {CascadeType.PERSIST}, fetch = FetchType.EAGER)
     private List<Tag> tags = new ArrayList<>();
 
     @ManyToOne
@@ -41,6 +41,8 @@ public class Blog {
 
     @Transient
     private String tagIds;
+
+    private String description;
 
     public Blog() {
     }
@@ -189,6 +191,36 @@ public class Blog {
         this.comments = comments;
     }
 
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public void init(){
+        this.tagIds = tagToIds(this.getTags());
+    }
+
+    private String tagToIds(List<Tag> tags){
+        if(!tags.isEmpty()){
+            StringBuffer ids = new StringBuffer();
+            boolean flag = false;
+            for (Tag tag : tags){
+                if(flag){
+                    ids.append(",");
+                }else{
+                    flag = true;
+                }
+                ids.append(tag.getId());
+            }
+            return ids.toString();
+        }else{
+            return tagIds;
+        }
+    }
+
     @Override
     public String toString() {
         return "Blog{" +
@@ -205,6 +237,12 @@ public class Blog {
                 ", recommend=" + recommend +
                 ", createTime=" + createTime +
                 ", updateTime=" + updateTime +
+                ", type=" + type +
+                ", tags=" + tags +
+                ", user=" + user +
+                ", comments=" + comments +
+                ", tagIds='" + tagIds + '\'' +
+                ", description='" + description + '\'' +
                 '}';
     }
 }

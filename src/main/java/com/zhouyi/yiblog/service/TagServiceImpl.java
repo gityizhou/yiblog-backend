@@ -50,6 +50,12 @@ public class TagServiceImpl implements TagService {
 
     @Override
     @Transactional
+    public List<Tag> listTag() {
+        return tagRepository.findAll();
+    }
+
+    @Override
+    @Transactional
     public Tag updateTag(Long id, Tag tag) {
         Optional<Tag> getType = tagRepository.findById(id);
         Tag t = getType.orElse(null);
@@ -66,22 +72,18 @@ public class TagServiceImpl implements TagService {
         tagRepository.deleteById(id);
     }
 
-    @Override
-    @Transactional
-    public List<Tag> listTag() {
-        return tagRepository.findAll();
-    }
 
     @Override
     public List<Tag> listTag(String ids) {  //1,2,3
+        System.out.println(convertToList(ids));
         return tagRepository.findAllById(convertToList(ids));
     }
 
-    public List<Long> convertToList(String ids){
+    public List<Long> convertToList(String ids) {
         List<Long> list = new ArrayList<>();
-        if("".equals(ids) && ids !=null){
+        if (!"".equals(ids) && ids != null) {
             String[] idarray = ids.split(",");
-            for(int i=0; i < idarray.length; i++){
+            for (int i = 0; i < idarray.length; i++) {
                 list.add(new Long(idarray[i]));
             }
         }

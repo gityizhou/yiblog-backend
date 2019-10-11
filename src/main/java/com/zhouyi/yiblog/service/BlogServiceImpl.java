@@ -4,6 +4,7 @@ import com.zhouyi.yiblog.NotFoundException;
 import com.zhouyi.yiblog.dao.BlogRepository;
 import com.zhouyi.yiblog.po.Blog;
 import com.zhouyi.yiblog.po.Type;
+import com.zhouyi.yiblog.util.MyBeanUtils;
 import com.zhouyi.yiblog.vo.BlogQuery;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -29,15 +30,11 @@ public class BlogServiceImpl implements BlogService {
 
     @Override
     public Blog getBlog(Long id) {
-        Optional<Blog> getBlog = blogRepository.findById(id);
-        Blog b = getBlog.orElse(null);
-        if (b == null) {
-            throw new NotFoundException("该博客不存在");
-        }
-        return b;
+        return blogRepository.findById(id).orElse(null);
     }
 
     @Override
+    @Transactional
     public Page<Blog> listBlog(Pageable pageable, BlogQuery blog) {
         return blogRepository.findAll(new Specification<Blog>() {
             @Override
@@ -61,21 +58,25 @@ public class BlogServiceImpl implements BlogService {
     @Transactional
     @Override
     public Blog saveBlog(Blog blog) {
-        blog.setCreateTime(new Date());
-        blog.setUpdateTime(new Date());
-        blog.setViews(0);
+        if (blog.getId() == null) {
+            blog.setCreateTime(new Date());
+            blog.setUpdateTime(new Date());
+            blog.setViews(0);
+        } else {
+            blog.setUpdateTime(new Date());
+        }
         return blogRepository.save(blog);
     }
 
     @Transactional
     @Override
     public Blog updateBlog(Long id, Blog blog) {
-        Optional<Blog> getBlog = blogRepository.findById(id);
-        Blog b = getBlog.orElse(null);
+        Blog b = getBlog(id);
         if (b == null) {
             throw new NotFoundException("该博客不存在");
         }
-        BeanUtils.copyProperties(blog, b);
+        BeanUtils.copyProperties(blog,b, MyBeanUtils.getNullPropertyNames(blog));
+        b.setUpdateTime(new Date());
         return blogRepository.save(b);
     }
 
